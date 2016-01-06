@@ -24,6 +24,8 @@ sudo apt-get install witty witty-dev
 
 (Note: these examples use `./witty_install/` (generated via `./install.sh` from above), or otherwise (if `./witty_install/` does not exist) try and use your system's packaged witty.)
 
+Note that all examples have a folder with `cmake/FindWt.cmake` which is from https://github.com/kdeforche/wt/blob/master/cmake/FindWt.cmake[here].
+
 === Hello World
 
 (Adapted from https://github.com/kdeforche/wt/tree/master/examples/hello)
