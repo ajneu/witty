@@ -12,7 +12,7 @@ This tutorial show how to build Wt projects using cmake. (It assumes a Debian-li
 ./install.sh    ## this script fetches wt-3.3.5 from https://github.com/kdeforche/wt/archive/3.3.5.tar.gz
 ----
 
-This script will create 2 directories `./witty_build/` and `./witty_install`.
+This script will create 2 directories `./witty_build/` and `./witty_install/`.
 
 Alternatively, you might also be interested in trying your system's own packaged witty:
 [source,bash]
@@ -22,7 +22,7 @@ sudo apt-get install witty witty-dev
 
 == Build examples
 
-(Note: these examples use `./witty_install` (generated via `./install.sh` from above), or otherwise (if `./witty_install` does not exist) try and use your system's packaged witty.)
+(Note: these examples use `./witty_install/` (generated via `./install.sh` from above), or otherwise (if `./witty_install/` does not exist) try and use your system's packaged witty.)
 
 === Hello World
 
