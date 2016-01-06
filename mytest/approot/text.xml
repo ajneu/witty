@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages xmlns:if="Wt.WTemplate.conditions">
+
+  <message id="WTemplate-temperature">
+    <div class="form">
+      <p>
+        <label>Please enter the temperature: ${name-edit}</label>
+      </p>
+      <p>
+        ${save-button} ${cancel-button}
+      </p>
+      <p>
+        ${response-text}
+      </p>
+    </div>
+  </message>
+
+</messages>
